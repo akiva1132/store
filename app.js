@@ -9,7 +9,7 @@ const cors = require('cors')
 app.use(cors());
 app.use(express.json());
 app.use(morgan("tiny"));
-app.use("/product", routGetProduct);
+app.use("/", routGetProduct);
 // app.use("/users/:id", )
 app.use("/users", routOfUser);
 
