@@ -1,9 +1,8 @@
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
-const routGetProduct = require("./routes/getProduct.js");
-const routOfUser = require("./routes/getUsers.js");
-const userControl = require("./controlers/getUsers.js")
+const routGetProduct = require("./getProduct.rout");
+const routOfUser = require("./getUsers.rout");
 
 
 const cors = require('cors') 
