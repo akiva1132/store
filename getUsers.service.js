@@ -1,4 +1,4 @@
-const usersArr = require("../UsersDAL.js");
+const usersArr = require("./UsersDAL.js");
 const bcrypt = require("bcrypt");
 const { v4: uuidv4 } = require("uuid");
 const saltRounds = 10;

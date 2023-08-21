@@ -1,4 +1,4 @@
-const prouductsArr = require("../productDAL.js");
+const prouductsArr = require("./productDAL.js");
 
 const getAllproduct = () => {
   const product = prouductsArr.read();
